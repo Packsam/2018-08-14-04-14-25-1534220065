@@ -11,7 +11,7 @@ describe('main()', () => {
     });
 
     it('should return 256', () => {
-        var actual = main("256");
+        let actual = main("256");
         expect(actual).toBe(
             "._. ._. ._.\n"+
             "._| |_. |_.\n"+
@@ -20,7 +20,7 @@ describe('main()', () => {
 
 
     it('should return 7', () => {
-        var actual = main("7");
+        let actual = main("7");
         expect(actual).toBe(
             "._.\n"+
             "..|\n"+
